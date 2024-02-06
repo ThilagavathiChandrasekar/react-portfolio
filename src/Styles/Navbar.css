@@ -1,0 +1,88 @@
+/* * {
+  font-family: "Poppins", sans-serif;
+}
+.navbar{
+    padding: 15px;
+    background-color:black;
+    border-radius: 5px;
+}
+.navbar-brand{
+    color: white    ;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-text {
+  padding: 0px 20px;
+}
+.nav-item {
+  margin-left: 15px;
+}
+.navbar-nav .nav-link:visited {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .nav-text {
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .nav-item {
+    margin-bottom: 6px;
+    margin-left: 0px;
+  }
+  .nav-text {
+    font-size: 1.3rem;
+    margin: 8px;
+  }
+  .navbar-toggler-icon {
+    margin-right: 18px;
+  }
+  .navbar {
+    width: 100%;
+  }
+} */
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+.nav-text {
+  padding: 8px;
+  font-size: 1.2rem;
+  color: white;
+}
+.navbar-nav .nav-link:hover {
+  color: #23e9a4;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item {
+  margin-left: 15px;
+}
+.navbar-nav .nav-link:visited {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .nav-text {
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .nav-item {
+    margin-bottom: 6px;
+    margin-left: 0px;
+  }
+  .nav-text {
+    font-size: 1.3rem;
+    margin: 8px;
+  }
+  .navbar-toggler-icon {
+    background-image: url(../Assets/toggler-image.png);
+    margin-right: 18px;
+  }
+  .navbar {
+    width: 100%;
+  }
+}
