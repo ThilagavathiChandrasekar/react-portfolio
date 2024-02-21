@@ -1,49 +1,20 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import '../Styles/Navbar.css';
-// export default function Navbar() {
-//   return (
-//     <div>
-//       <nav className="navbar navbar-expand-lg ">
-//         <div className="container-fluid">
-//           <b><a className="navbar-brand" href="#">Thilagavathi Chandrasekar</a></b>
-//           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-//             <span className="navbar-toggler-icon"></span>
-//           </button>
-//           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-//             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-//               <li className="nav-item">
-//                 <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
-//               </li>
-//               <li className="nav-item">
-//                 <a className="nav-link" href="#">Skills</a>
-//               </li>
-//               <li className="nav-item">
-//                 <a className="nav-link" href="#">Project</a>
-//               </li>
-//               <li className="nav-item">
-//                 <a className="nav-link" href="#">Contact</a>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </nav>
-//     </div>
-//   )
-// }
-
 import '../Styles/Navbar.css';
+import Home from '../Components/Home';
+import Skills from '../Components/Skills';
+import Project from '../Components/Project';
+import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
+
 const Navbar = () => {
 
   return (
     <>
         <section id="navbar">
-          <nav
-            className="navbar navbar-expand-lg fixed-top"
-            style={{ backgroundColor: "black" }}
-          >
-            <a className="navbar-brand" style={{ color: "white" }}>
-              <b>Dinesh Ram</b>
+          <nav 
+          style={{ backgroundColor: "#262C4D" }}
+          className="navbar navbar-expand-lg fixed-top">
+            <a className="navbar-brand" style={{ color: "whitesmoke" }}>
+              <b>Thilagavathi Chandrasekar</b>
             </a>
             <button
               className="navbar-toggler"
@@ -77,47 +48,32 @@ const Navbar = () => {
                     <a className="nav-link nav-text" href="#home">
                       Home
                     </a>
-                    {/* <Link className="nav-link nav-text" to="/#home">
-                      Home
-                    </Link> */}
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link " href="#about">
-                      About
-                    </a>
-                    {/* <Link className="nav-link nav-text" to="/#about">
-                      About
-                    </Link> */}
                   </li>
                   <li className="nav-item">
                     <a className="nav-link nav-text" href="#tech-stack">
-                      Tech Stack
+                    Mastery
                     </a>
-                    {/* <Link className="nav-link nav-text" to="/#tech-stack">
-                      Tech Stack
-                    </Link> */}
                   </li>
                   <li className="nav-item">
                     <a className="nav-link nav-text" href="#project">
-                      Project
+                      Undertaking
                     </a>
-                    {/* <Link className="nav-link nav-text" to="/#project">
-                      Project
-                    </Link> */}
                   </li>
                   <li className="nav-item">
                     <a className="nav-link nav-text" href="#">
-                    Contact
+                    Get in touch
                     </a>
-                    {/* <Link className="nav-link nav-text" to="/contact">
-                      Contact
-                    </Link> */}
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         </section>
+        <Home />
+        <Skills />
+        <Project />
+        <Contact />
+        <Footer />
     </>
   );
 };

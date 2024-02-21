@@ -1,51 +1,8 @@
-/* * {
-  font-family: "Poppins", sans-serif;
-}
-.navbar{
-    padding: 15px;
-    background-color:black;
-    border-radius: 5px;
-}
-.navbar-brand{
-    color: white    ;
-}
-.navbar-nav {
-  margin-left: auto;
-}
-.nav-text {
-  padding: 0px 20px;
-}
-.nav-item {
-  margin-left: 15px;
-}
-.navbar-nav .nav-link:visited {
-  color: white;
-}
-@media only screen and (max-width: 600px) {
-  .nav-text {
-    padding: 0px 0px;
-    text-align: center;
-    font-size: 0.9rem;
-  }
-  .nav-item {
-    margin-bottom: 6px;
-    margin-left: 0px;
-  }
-  .nav-text {
-    font-size: 1.3rem;
-    margin: 8px;
-  }
-  .navbar-toggler-icon {
-    margin-right: 18px;
-  }
-  .navbar {
-    width: 100%;
-  }
-} */
-
-* {
-  font-family: "Poppins", sans-serif;
-  background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body { height: 100%; }
+body {
+  overflow-x: hidden;
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
 }
 .nav-text {
   padding: 8px;
@@ -70,13 +27,23 @@
     text-align: center;
     font-size: 0.9rem;
   }
+  .navbar-nav .nav-link:visited {
+    color: black;
+    margin-bottom: 70px;
+  }
+  .navbar-brand{
+    padding-left:5px;
+    font-size: 17px;
+  }
   .nav-item {
     margin-bottom: 6px;
     margin-left: 0px;
+    font-size: 17px;
   }
   .nav-text {
     font-size: 1.3rem;
     margin: 8px;
+    color: black;
   }
   .navbar-toggler-icon {
     background-image: url(../Assets/toggler-image.png);

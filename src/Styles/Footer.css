@@ -1,0 +1,72 @@
+.footer{
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+    height: 10rem;
+}
+.linkedin , .mail{
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.linkedin:hover{
+    color: #0077B5;
+}
+.mail:hover{
+    color:rgb(231, 52, 52);
+}
+.git-icon{
+    color:black;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.git{
+    text-decoration: none;
+    color:black;
+}
+.gihub-footer{
+    color:black
+}
+.git:hover{
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+.git-icon:hover{
+    color:rgb(39, 34, 34);
+   
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+    .footer{
+        margin-top: 30px;
+        padding-bottom: 0px;
+        height: 200px;
+    }
+
+    .footer-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-right{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mail,.linkedin{
+        font-size: 23px;
+    }
+    .linkedin:hover{
+        color: #0077B5;
+    }
+    .mail:hover{
+        color:rgb(231, 52, 52);
+    }
+    .github-footer{
+        text-align: center;
+    }
+}

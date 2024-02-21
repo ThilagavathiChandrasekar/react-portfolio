@@ -1,17 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Components/Home';
-import Skills from './Components/Skills';
 import Navbar from './Components/Navbar';
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/skills' element={<Skills />} />
+          <Route path='/' element={<Navbar />} />
         </Routes>
-      </BrowserRouter> */}
-      <Navbar/>
+      </BrowserRouter>
     </div>
   );
 }
