@@ -1,13 +1,13 @@
 import React from 'react';
 import '../Styles/Contact.css';
-import Project from '../Components/Project';
+// import Project from '../Components/Project';
 import Contactimg from '../Assets/Contact.png';
 import { IoIosSend } from "react-icons/io";
 import { FcContacts } from "react-icons/fc";
 function Contact() {
   return (
     <div className='contact'>
-        <Project />
+        {/* <Project /> */}
         <h4 data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="1000"><FcContacts />Contact</h4>
         <div className='container'>
             <div className='row'>

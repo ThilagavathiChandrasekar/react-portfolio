@@ -1,5 +1,4 @@
 import React from 'react';
-import Contact from '../Components/Contact';
 import '../Styles/Footer.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -15,7 +14,6 @@ function Footer() {
   };
   return (
     <div >
-        <Contact />
           <div class="card footer container-fluid ">
               <div class="card-body footer-body ">
                 <div className='footer-right'>

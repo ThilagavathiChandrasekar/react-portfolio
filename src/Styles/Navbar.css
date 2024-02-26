@@ -10,7 +10,7 @@ body {
   color: white;
 }
 .navbar-nav .nav-link:hover {
-  color: #23e9a4;
+  color: rgba(227, 227, 227, 0.448);
 }
 .navbar-nav {
   margin-left: auto;

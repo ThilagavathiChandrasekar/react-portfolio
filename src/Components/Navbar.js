@@ -1,10 +1,4 @@
 import '../Styles/Navbar.css';
-import Home from '../Components/Home';
-import Skills from '../Components/Skills';
-import Project from '../Components/Project';
-import Contact from '../Components/Contact';
-import Footer from '../Components/Footer';
-
 const Navbar = () => {
 
   return (
@@ -69,11 +63,6 @@ const Navbar = () => {
             </div>
           </nav>
         </section>
-        <Home />
-        <Skills />
-        <Project />
-        <Contact />
-        <Footer />
     </>
   );
 };

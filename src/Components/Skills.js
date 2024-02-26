@@ -11,8 +11,8 @@ import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaJava, FaReact } from "react-i
 export default function Skills() {
   return (
     <div>
-    <Navbar />
-    <Home />
+    {/* <Navbar /> */}
+    {/* <Home /> */}
 
       <div className='skill'>
         <h4 className='skill-heading'  data-aos="zoom-in-"  data-aos-easing="linear" data-aos-duration="1000"><IoSettingsOutline />Mastery</h4>
