@@ -11,10 +11,11 @@ import { HiArrowSmRight } from "react-icons/hi";
 function Project() {
   return (
     <div>
-        <div className='project'>
-            <p data-aos="zoom-in-up"  data-aos-easing="linear" data-aos-duration="1000"> <AiFillProject /> Undertaking </p>
-            <p data-aos="zoom-in-up"  data-aos-easing="linear" data-aos-duration="1000">A select number of project</p>
-
+        <div id='project'>
+            <div className='pro-heading'>
+                <p data-aos="zoom-in-up"  data-aos-easing="linear" data-aos-duration="1000"> <AiFillProject /> Undertaking </p>
+                <p data-aos="zoom-in-up"  data-aos-easing="linear" data-aos-duration="1000">A select number of project</p>
+            </div>
             <div className='container'>
                 <div className='row d-flex justify-content-between  col-sm-12'>
                     <div data-aos="fade-right" data-aos-duration="1000" className="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem"}}>

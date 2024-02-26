@@ -6,9 +6,9 @@ import { IoIosSend } from "react-icons/io";
 import { FcContacts } from "react-icons/fc";
 function Contact() {
   return (
-    <div className='contact'>
+    <div id='contact'>
         {/* <Project /> */}
-        <h4 data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="1000"><FcContacts />Contact</h4>
+        <h4 data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="1000" className='contact-head'><FcContacts />Contact</h4>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 col-md-12 col-sm-12'>
