@@ -28,7 +28,7 @@ function Contact() {
                 <div className='col-lg-6 col-md-12 col-sm-12'>
                     <div>
                         <form onSubmit={sendEmail}>
-                            <input type='name' name='user_name' placeholder='Enter User Name' className='email' /><br />
+                            <input type='name' name='user_name' placeholder='Enter User Name' className='name' /><br />
                             <input type='email' name='user_email' placeholder='Enter email address' className='email' /><br />
                             <textarea name='message' placeholder='Enter message...' className='msg' /><br />
                             <button type='submit' className='btn'>Send message<IoIosSend /></button>
