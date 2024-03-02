@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.250f67c8.css",
-    "main.js": "/react-portfolio/static/js/main.0434bfdd.js",
+    "main.css": "/react-portfolio/static/css/main.c3b287d1.css",
+    "main.js": "/react-portfolio/static/js/main.83af52fd.js",
     "static/media/weather.png": "/react-portfolio/static/media/weather.ff9f5cb81decb94317c5.png",
     "static/media/food.png": "/react-portfolio/static/media/food.2a2a07afde44fd76e4d5.png",
     "static/media/todolist.png": "/react-portfolio/static/media/todolist.98c209077231aafd202e.png",
     "static/media/bank.png": "/react-portfolio/static/media/bank.1b87e5406443ef6148d9.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.845adb7173ab05b4f42b.pdf",
+    "static/media/my-img.jpg": "/react-portfolio/static/media/my-img.c5635e57d98bd30d4d75.jpg",
     "static/media/Contact.png": "/react-portfolio/static/media/Contact.dfe703a8ddf83125e4cf.png",
     "static/media/Skills.png": "/react-portfolio/static/media/Skills.ce235f365dea2efc4443.png",
     "static/media/quiz.png": "/react-portfolio/static/media/quiz.9d029d06b2e5f43460ae.png",
     "index.html": "/react-portfolio/index.html",
-    "main.250f67c8.css.map": "/react-portfolio/static/css/main.250f67c8.css.map",
-    "main.0434bfdd.js.map": "/react-portfolio/static/js/main.0434bfdd.js.map"
+    "main.c3b287d1.css.map": "/react-portfolio/static/css/main.c3b287d1.css.map",
+    "main.83af52fd.js.map": "/react-portfolio/static/js/main.83af52fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.250f67c8.css",
-    "static/js/main.0434bfdd.js"
+    "static/css/main.c3b287d1.css",
+    "static/js/main.83af52fd.js"
   ]
 }
