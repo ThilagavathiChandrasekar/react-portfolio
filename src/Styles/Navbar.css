@@ -58,7 +58,7 @@ nav{
   }
   .navbar-toggler-icon {
     background-image: url(../Assets/toggler-image.png);
-    margin-right: 40px;
+    margin-right: 20px;
   }
   .navbar {
     width: 100%;
