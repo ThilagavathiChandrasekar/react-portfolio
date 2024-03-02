@@ -53,12 +53,13 @@ form{
     .contact-img{
         height: inherit;
         width: fit-content;
-        margin-left: 50px;
+        margin-left: 60px;
+        align-items: center;
         margin-top: 25px;
     }
     .email, .msg, .name{
         width: 270px;
         padding: 5px;
-        margin-left: 50px;
+        margin-left: 55px;
     }
 }

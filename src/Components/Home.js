@@ -1,5 +1,6 @@
 import React from "react";
-import profile1 from '../Assets/profileicon.jpg';
+import profile1 from '../Assets/my-img.jpg';
+import resumeFile from '../Assets/resume.pdf';
 import '../Styles/Home.css';
 const Home = () => {
   return (
@@ -20,19 +21,20 @@ const Home = () => {
           data-aos-easing="ease-in-back"
           data-aos-delay="300"
           data-aos-offset="0" className="home-head">
-              I`m Thilagavathi Chandrasekar I build a responsive websites.
+              I'm Thilagavathi Chandrasekar I build a responsive websites.
         </h3>
 
             <p 
               className="home-about-content" 
-              data-aos="flip-left"
-              data-aos-anchor-placement="top-center"
+              data-aos="zoom-in" data-aos-anchor-placement="top-center"
               >
             "Passionate frontend developer with a flair for crafting engaging user experiences. Proficient in HTML, CSS, Bootstrap and React js. Committed to creating clean, responsive designs."
             </p>
 
             <div>
-              <button className="btn  cv-btn">Resume</button>
+            <a href={resumeFile} target="_blank" rel="noopener noreferrer">
+                <button className="btn  cv-btn">Resume</button>
+              </a>
             </div>
       </div>
 
