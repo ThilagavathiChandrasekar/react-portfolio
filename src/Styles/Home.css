@@ -10,6 +10,7 @@
   height: 249px;
   flex-shrink: 0;
   margin-top: 70px;
+  filter: brightness(100%) contrast(130%);
 }
 
 .home-head{
@@ -23,6 +24,7 @@
   width: 230px;
   height: 230px;
   border-radius: 230px;
+  border-color: rgb(134, 213, 245);
   margin-left: -10px;
 }
 .home-about-content{

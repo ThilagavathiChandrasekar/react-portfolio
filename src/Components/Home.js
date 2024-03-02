@@ -1,5 +1,5 @@
 import React from "react";
-import profile from '../Assets/profileicon.jpg';
+import profile1 from '../Assets/profileicon.jpg';
 import '../Styles/Home.css';
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <img className="avathar-img" 
           data-aos="zoom-in"
           data-aos-duration="1000"
-           src={profile} alt="avathar" 
+           src={profile1} alt="avathar" 
         />
       </div>
 
