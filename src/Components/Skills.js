@@ -24,7 +24,7 @@ export default function Skills() {
               <div className='skill-list d-flex col-sm-6'>
                 <div className='icons'>
                   <FaHtml5 data-aos="zoom-in-right" data-aos-duration="1500"
-                      className='html' style={{color: "#E34F26", textAlign:"center"}} />
+                      className='html' style={{color: "#E34F26"}} />
                       <p className='skill-list-name'>HTML</p>
                   </div>
                 <div className='icons'>
