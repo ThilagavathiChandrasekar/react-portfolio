@@ -22,11 +22,14 @@ function Contact() {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 col-md-12 col-sm-12'>
-                    <img src={Contactimg} className='contact-img' />
+                    <img src={Contactimg} className='contact-img' data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"/>
                 </div>
 
                 <div className='col-lg-6 col-md-12 col-sm-12'>
-                    <div>
+                    <div data-aos="fade-left"
+                          data-aos-anchor="#example-anchor"
+                          data-aos-offset="500"
+                          data-aos-duration="500">
                         <form onSubmit={sendEmail}>
                             <input type='name' name='user_name' placeholder='Enter User Name' className='name' /><br />
                             <input type='email' name='user_email' placeholder='Enter email address' className='email' /><br />
