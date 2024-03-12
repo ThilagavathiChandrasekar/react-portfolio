@@ -21,11 +21,11 @@ const Navbar = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="offcanvas offcanvas-end"
+              className="offcanvas offcanvas-end toggle-background"
               tabindex="-1"
               id="offcanvasNavbar"
               aria-labelledby="offcanvasNavbarLabel"
-              style={{ width: "75%" }}
+              style={{ width: "50%" }}
             >
               <div className="offcanvas-header">
                 <button
@@ -33,7 +33,7 @@ const Navbar = () => {
                   className="btn-close"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
-                  style={{ backgroundColor: "white" }}
+                  style={{ backgroundColor: "offcanvas-body" }}
                 ></button>
               </div>
               <div className="offcanvas-body">

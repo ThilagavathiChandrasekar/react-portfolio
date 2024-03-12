@@ -29,6 +29,11 @@ nav{
 .navbar-nav .nav-link:visited {
   color: white;
 }
+.toggle-background{
+  background-color: #262C4D;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   *{
     overflow-x: hidden;
@@ -59,7 +64,10 @@ nav{
   .navbar-toggler-icon {
     background-image: url(../Assets/toggler-image.png);
     margin-right: 20px;
+    background-color:#262C4D;
+    color: white;
   }
+  
   .navbar {
     width: 100%;
   }

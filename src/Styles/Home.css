@@ -35,7 +35,7 @@
 .content{
   color:#000;
   margin-top: 110px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .cv-btn{
   width: 100px;
@@ -69,7 +69,7 @@
     font-size: 15px;
     padding-left: 30px;
     margin: 20px;
-    text-align: justify;
+    /* text-align: justify; */
   }  
  .home-head{
   font-size: 25px; 

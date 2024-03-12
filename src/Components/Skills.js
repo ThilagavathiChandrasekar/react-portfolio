@@ -22,32 +22,49 @@ export default function Skills() {
               <p className='skill-para'>I have a vast experience in the following web technologies:</p>
 
               <div className='skill-list d-flex col-sm-6'>
-                <div className='icons'>
-                  <FaHtml5    data-aos="zoom-out-right"
-                      className='html' style={{color: "#E34F26"}} />
+                <div className='icons'
+                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
+                 >
+                  <FaHtml5  
+                      id='html' style={{color: "#E34F26"}} />
                       <p className='skill-list-name'>HTML</p>
                   </div>
-                <div className='icons'>
-                  <FaCss3    data-aos="zoom-out-right"
-                      className='css' style={{color: "#1572B6"}} />
+                <div className='icons'
+                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
+
+                 >
+                  <FaCss3  
+                      id='css' style={{color: "#1572B6"}} />
                       <p className='skill-list-name' >CSS</p></div>
-                <div className='icons'>
-                  <FaBootstrap    data-aos="zoom-out-right"
-                      className='bootstrap' style={{ color:"#563d7c"}} />
+                <div className='icons'
+                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
+
+                 >
+                  <FaBootstrap  
+                      id='bootstrap' style={{ color:"#563d7c"}} />
                       <p className='skill-list-name'>Bootstrap</p></div>
-                <div className='icons'>
-                  <FaReact    data-aos="zoom-out-right"
-                      className='react' style={{color: "skyblue" }}/>
+                <div className='icons'
+                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
+
+                 >
+                  <FaReact  
+                      id='react' style={{color: "skyblue" }}/>
                       <p className='skill-list-name'>React Js</p>
                   </div>
-                <div className='icons'>
-                  <FaJava    data-aos="zoom-out-right"
-                      className='java' style={{color: "#f89820"}} />
+                <div className='icons'
+                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
+
+                 >
+                  <FaJava  
+                      id='java' style={{color: "#f89820"}} />
                       <p className='skill-list-name'>Java</p>
                   </div>
-                <div className='icons'>
-                  <FaGithub    data-aos="zoom-out-right"
-                      className='github' style={{color: "black"}}/>
+                <div className='icons'
+                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
+
+                 >
+                  <FaGithub  
+                      id='github' style={{color: "black"}}/>
                       <p className='skill-list-name'> Github</p>
                   </div>
               </div>
