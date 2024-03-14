@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2b109f0d.css",
-    "main.js": "/react-portfolio/static/js/main.c7b69f0a.js",
+    "main.css": "/react-portfolio/static/css/main.0751264f.css",
+    "main.js": "/react-portfolio/static/js/main.e096eaf7.js",
     "static/media/weather.png": "/react-portfolio/static/media/weather.ff9f5cb81decb94317c5.png",
     "static/media/food.png": "/react-portfolio/static/media/food.2a2a07afde44fd76e4d5.png",
     "static/media/todolist.png": "/react-portfolio/static/media/todolist.98c209077231aafd202e.png",
     "static/media/bank.png": "/react-portfolio/static/media/bank.1b87e5406443ef6148d9.png",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.845adb7173ab05b4f42b.pdf",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.84199004283dd653a4f9.pdf",
     "static/media/my-img.jpg": "/react-portfolio/static/media/my-img.c5635e57d98bd30d4d75.jpg",
     "static/media/Contact.png": "/react-portfolio/static/media/Contact.dfe703a8ddf83125e4cf.png",
     "static/media/Skills.png": "/react-portfolio/static/media/Skills.ce235f365dea2efc4443.png",
     "static/media/quiz.png": "/react-portfolio/static/media/quiz.9d029d06b2e5f43460ae.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2b109f0d.css.map": "/react-portfolio/static/css/main.2b109f0d.css.map",
-    "main.c7b69f0a.js.map": "/react-portfolio/static/js/main.c7b69f0a.js.map"
+    "main.0751264f.css.map": "/react-portfolio/static/css/main.0751264f.css.map",
+    "main.e096eaf7.js.map": "/react-portfolio/static/js/main.e096eaf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b109f0d.css",
-    "static/js/main.c7b69f0a.js"
+    "static/css/main.0751264f.css",
+    "static/js/main.e096eaf7.js"
   ]
 }
