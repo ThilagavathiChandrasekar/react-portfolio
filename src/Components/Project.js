@@ -22,7 +22,7 @@ function Project() {
                         <img src={bank} className="card-img-top" />
                         <div className="card-body">
                             <h5 className="card-title">Bankist Website</h5>
-                            <button className='card-btn'><a href="https://playful-mooncake-eb9f18.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight />  </a></button>
+                            <button className='card-btn'><a href="https://bankist-website-description.netlify.app/" className='anchor-btn'>Learn More<HiArrowSmRight />  </a></button>
                         </div>
                     </div>
 
@@ -30,7 +30,7 @@ function Project() {
                         <img src={quiz} className="card-img-top" />
                         <div className="card-body">
                             <h5 className="card-title">Quiz App</h5>
-                            <button className='card-btn'><a href="https://warm-kleicha-20537b.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                            <button className='card-btn'><a href="https://quiz-application-description.netlify.app/" className='anchor-btn'>Learn More<HiArrowSmRight /></a></button>
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@ function Project() {
                         <img src={todolist} className="card-img-top" />
                         <div className="card-body">
                             <h5 className="card-title">To Do List</h5>
-                           <button className='card-btn'><a href="https://thilagavathichandrasekar.github.io/todoList/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                           <button className='card-btn'><a href="https://todolist-description.netlify.app/" className='anchor-btn'>Learn More<HiArrowSmRight /></a></button>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ function Project() {
                     <img src={weather} className="card-img-top" />
                     <div className="card-body">
                         <h5 className="card-title">Weather Application</h5>
-                        <button className='card-btn'><a href="https://weather-reactjs-01.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                        <button className='card-btn'><a href="https://weather-application-description.netlify.app/" className='anchor-btn'>Learn More<HiArrowSmRight /></a></button>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ function Project() {
                     <img src={food} className="card-img-top" />
                     <div className="card-body">
                         <h5 className="card-title">Omnifood App</h5>
-                        <button className='card-btn'><a href="https://golden-clafoutis-abd81b.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                        <button className='card-btn'><a href="https://omnifood-description.netlify.app/" className='anchor-btn'>Learn More<HiArrowSmRight /></a></button>
                     </div>
                 </div>
                 </div>
