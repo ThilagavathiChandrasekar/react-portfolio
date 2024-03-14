@@ -30,30 +30,26 @@ export default function Skills() {
                       <p className='skill-list-name'>HTML</p>
                   </div>
                 <div className='icons'
-                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
-
+                 data-aos="zoom-in-left" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
                  >
                   <FaCss3  
                       id='css' style={{color: "#1572B6"}} />
                       <p className='skill-list-name' >CSS</p></div>
                 <div className='icons'
-                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
-
+                 data-aos="zoom-in-left" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
                  >
                   <FaBootstrap  
                       id='bootstrap' style={{ color:"#563d7c"}} />
                       <p className='skill-list-name'>Bootstrap</p></div>
                 <div className='icons'
                  data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
-
                  >
                   <FaReact  
                       id='react' style={{color: "skyblue" }}/>
                       <p className='skill-list-name'>React Js</p>
                   </div>
                 <div className='icons'
-                 data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
-
+                 data-aos="zoom-in-left" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
                  >
                   <FaJava  
                       id='java' style={{color: "#f89820"}} />
@@ -61,7 +57,6 @@ export default function Skills() {
                   </div>
                 <div className='icons'
                  data-aos="zoom-in-right" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-back"
-
                  >
                   <FaGithub  
                       id='github' style={{color: "black"}}/>
