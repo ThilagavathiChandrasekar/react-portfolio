@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Hind:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Sora:wght@100..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=Hind:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Sora:wght@100..800&display=swap");
 /* resume */
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.home{
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.home {
   margin-top: 60px;
 }
 
@@ -13,15 +14,15 @@
   filter: brightness(100%) contrast(130%);
 }
 
-.home-head{
+.home-head {
   font-family: "Sora", sans-serif;
   font-size: 40px;
   font-optical-sizing: auto;
   font-style: normal;
-  padding: 2px;
-  /* letter-spacing: -2.5px; */
+  letter-spacing: -2.5px;
+  word-spacing: 15px;
 }
-.avathar-img{
+.avathar-img {
   margin-top: 60px;
   width: 230px;
   height: 230px;
@@ -29,16 +30,16 @@
   border-color: rgb(134, 213, 245);
   margin-left: -10px;
 }
-.home-about-content{
+.home-about-content {
   font-family: "Cantata One", serif;
   font-size: 19px;
 }
-.content{
-  color:#000;
+.content {
+  color: #000;
   margin-top: 110px;
   /* text-align: justify; */
 }
-.cv-btn{
+.cv-btn {
   width: 100px;
   background-color: #1b234a;
   color: white;
@@ -47,42 +48,51 @@
   font-size: 19px;
   font-style: normal;
 }
+.head-span-blue{
+  color: orangered;
+  transition: 1s;
+}
+.head-span-blue:hover{
+  color: black;
+  transition: 1s;
+}
 @media only screen and (max-width: 600px) {
-  .avatar{
+  .avatar {
     margin-top: 27px;
     width: 230px;
     height: 230px;
     border-radius: 230px;
     margin-left: -10px;
   }
-  .cv-btn{
+  .cv-btn {
     margin-left: 150px;
   }
-  .avathar-img{
+  .avathar-img {
     margin-top: 0px;
+    margin-left: 5px;
     width: 210px;
     height: 210px;
     border-radius: 230px;
   }
-  .content{
-    color:#000;
+  .content {
+    color: #000;
     margin-top: 30px;
     font-size: 15px;
     /* word-spacing: 10px;  */
     padding-left: 30px;
     margin: 20px;
     /* text-align: justify; */
-  }  
- .home-head{
-  font-size: 25px; 
-  padding-right: 10px;
-  text-align: center;
-}
- .home-about-content{
-  font-size: 16px;
-  padding-right: 10px;
-  margin-top: 25px;
-  text-align: justify;
- } 
- 
+  }
+  .home-head {
+    font-size: 23px;
+    /* padding-right: 10px; */
+    text-align: center;
+    margin-left: -15px;
+  }
+  .home-about-content {
+    font-size: 16px;
+    padding-right: 10px;
+    margin-top: 25px;
+    text-align: justify;
+  }
 }

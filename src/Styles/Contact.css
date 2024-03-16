@@ -1,65 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 /* resume */
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.contact-img{
-    height: 400px;
-    width: 350px;
-    filter: brightness(100%) contrast(130%);
+.contact-img {
+  height: 400px;
+  width: 350px;
+  filter: brightness(100%) contrast(130%);
 }
-.contact-head{
-    font-size: 29px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: bold;
+.contact-head {
+  font-size: 29px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: bold;
 }
-h4{
-    margin-top: 50px;
-    color:red;
-    text-align: center;
+h4 {
+  margin-top: 50px;
+  color: red;
+  text-align: center;
 }
-.email, .name{
-    margin: 10px;
-    padding: 10px;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 10px rgba(212, 210, 210, 0);
-    width: 400px;
-    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #ddebec 100%);
+.email,
+.name {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(212, 210, 210, 0);
+  width: 400px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 254, 234, 1) 0%,
+    rgba(255, 254, 234, 1) 35%,
+    #ddebec 100%
+  );
 }
-.msg{
-    margin: 10px;
-    width: 400px;
-    height: 100px;
-    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #ddebec 100%);
+.msg {
+  margin: 10px;
+  width: 400px;
+  height: 100px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 254, 234, 1) 0%,
+    rgba(255, 254, 234, 1) 35%,
+    #ddebec 100%
+  );
 }
-.btn{
-    padding: 5px;
-    background-color:  #343D68;
-    color: white;
-    margin-left:100px;
-    margin-top: 50px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 19px;
-    font-style: normal;
+.btn {
+  /* padding: 5px; */
+  background-color: #343d68;
+  color: white;
+  margin-left: 100px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 19px;
+  font-style: normal;
 }
-.btn:hover{
-    background-color: #1b234a;
-    color: white;
+.btn:hover {
+  background-color: #1b234a;
+  color: white;
 }
-form{
-    margin-top: 40px;
+form {
+  margin-top: 40px;
+}
+.border-common {
+  border: 1px solid black;
 }
 @media only screen and (max-width: 600px) {
-    .contact-img{
-        height: 300px;
-        width: 300px;
-        margin-left: 50px;
-        align-items: center;
-        margin-top: 25px;
-    }
-    .email, .msg, .name{
-        width: 270px;
-        padding: 5px;
-        margin-left: 50px;
-    }
+  .contact-img {
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+  .email,
+  .msg,
+  .name {
+    width: 270px;
+    padding: 5px;
+    margin-left: 50px;
+  }
+  .form-div {
+    display: flex;
+    justify-content: center;
+    margin-left: -25px;
+  }
 }

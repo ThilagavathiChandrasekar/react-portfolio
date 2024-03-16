@@ -87,4 +87,7 @@ a {
   .github-footer {
     text-align: center;
   }
+  .footer-left-text {
+    margin-top: 0px;
+  }
 }

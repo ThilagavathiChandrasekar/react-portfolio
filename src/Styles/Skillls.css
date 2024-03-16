@@ -65,6 +65,9 @@
 .img-skills {
   margin: 80px;
 }
+.skill-content{
+  margin-bottom: 10px;
+}
 @media only screen and (max-width: 600px) {
   .skill-heading {
     text-align: center;
@@ -78,7 +81,6 @@
   .skill-content {
     display: flex;
     flex-direction: column-reverse;
-
   }
   .skill-img {
     margin-left: 0px;

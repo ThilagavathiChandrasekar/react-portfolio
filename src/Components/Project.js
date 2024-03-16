@@ -11,133 +11,55 @@ import { HiArrowSmRight } from "react-icons/hi";
 function Project() {
   return (
     <div>
-      <div id="project">
-        <div className="pro-heading">
-          <p
-            data-aos="zoom-in-up"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            {" "}
-            <AiFillProject /> Undertaking{" "}
-          </p>
-          <p
-            data-aos="zoom-in-up"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            A select number of project
-          </p>
+        <div id='project'>
+            <div className='pro-heading'>
+                <p data-aos="zoom-in-up"  data-aos-easing="linear" data-aos-duration="1000"> <AiFillProject /> Undertaking </p>
+                <p data-aos="zoom-in-up"  data-aos-easing="linear" data-aos-duration="1000">A select number of project</p>
+            </div>
+            <div className='container'>
+                <div className='row d-flex justify-content-between  col-sm-12'>
+                    <div data-aos="fade-right" data-aos-duration="1000" className="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem"}}>
+                        <img src={bank} className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Bankist Website</h5>
+                            <button className='card-btn'><a href="https://playful-mooncake-eb9f18.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight />  </a></button>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in" data-aos-duration="1000" className="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem"}}>
+                        <img src={quiz} className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">Quiz App</h5>
+                            <button className='card-btn'><a href="https://warm-kleicha-20537b.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-duration="1000" className="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem"}}>
+                        <img src={todolist} className="card-img-top" />
+                        <div className="card-body">
+                            <h5 className="card-title">To Do List</h5>
+                           <button className='card-btn'><a href="https://thilagavathichandrasekar.github.io/todoList/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                        </div>
+                    </div>
+
+                <div data-aos="fade-right" data-aos-duration="1000" className="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem"}}>
+                    <img src={weather} className="card-img-top" />
+                    <div className="card-body">
+                        <h5 className="card-title">Weather Application</h5>
+                        <button className='card-btn'><a href="https://weather-reactjs-01.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="1000" className="card col-lg-4 col-md-6 col-sm-12" style={{width: "18rem"}}>
+                    <img src={food} className="card-img-top" />
+                    <div className="card-body">
+                        <h5 className="card-title">Omnifood App</h5>
+                        <button className='card-btn'><a href="https://golden-clafoutis-abd81b.netlify.app/" className='anchor-btn'>Live link<HiArrowSmRight /></a></button>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
-        <div className="container">
-          <div className="row d-flex justify-content-between  col-sm-12">
-            <div
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              className="card col-lg-4 col-md-6 col-sm-12"
-              style={{ width: "18rem" }}
-            >
-              <img src={bank} className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Bankist Website</h5>
-                <button type="button" className=" card-btn">
-                  <a
-                    href="https://playful-mooncake-eb9f18.netlify.app/"
-                    className="anchor-btn"
-                  >
-                    Live link
-                    <HiArrowSmRight />{" "}
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="card col-lg-4 col-md-6 col-sm-12"
-              style={{ width: "18rem" }}
-            >
-              <img src={quiz} className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Quiz App</h5>
-                <button type="button" className=" card-btn">
-                  <a
-                    href="https://warm-kleicha-20537b.netlify.app/"
-                    className="anchor-btn"
-                  >
-                    Live link
-                    <HiArrowSmRight />
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              className="card col-lg-4 col-md-6 col-sm-12"
-              style={{ width: "18rem" }}
-            >
-              <img src={todolist} className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">To Do List</h5>
-                <button type="button" className=" card-btn">
-                  <a
-                    href="https://thilagavathichandrasekar.github.io/todoList/"
-                    className="anchor-btn"
-                  >
-                    Live link
-                    <HiArrowSmRight />
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              className="card col-lg-4 col-md-6 col-sm-12"
-              style={{ width: "18rem" }}
-            >
-              <img src={weather} className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Weather Application</h5>
-                <button type="button" className=" card-btn">
-                  <a
-                    href="https://weather-reactjs-01.netlify.app/"
-                    className="anchor-btn"
-                  >
-                    Live link
-                    <HiArrowSmRight />
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              className="card col-lg-4 col-md-6 col-sm-12"
-              style={{ width: "18rem" }}
-            >
-              <img src={food} className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Omnifood App</h5>
-                <button type="button" className=" card-btn">
-                  <a
-                    href="https://golden-clafoutis-abd81b.netlify.app/"
-                    className="anchor-btn"
-                  >
-                    Live link
-                    <HiArrowSmRight />
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
