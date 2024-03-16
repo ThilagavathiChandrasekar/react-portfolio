@@ -1,79 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Hind:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-.footer{
-    margin: auto;
-    padding:auto;
-    border-radius: 0%;
-    height: 10rem;
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-     font-style: normal;
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=Hind:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+.footer {
+  margin: auto;
+  padding: auto;
+  border-radius: 0%;
+  height: 10rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-.linkedin , .mail{
-    margin: 10px;
-    font-size: 25px;
-    cursor: pointer;
+.linkedin {
+  margin: 10px;
+  font-size: 25px;
+  cursor: pointer;
 }
-.linkedin:hover{
-    color: #0077B5;
+.mail {
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
 }
-.github-footer{
-    color: white;
+.linkedin:hover {
+  color: #0077b5;
 }
-.mail:hover{
-    color:rgb(231, 52, 52);
+.github-footer {
+  color: white;
+  margin-bottom: 0px;
 }
-.git-icon{
-    color:black;
-    font-size: 25px;
-    margin-right: 5px;
+.mail:hover {
+  color: rgb(231, 52, 52);
 }
-.git{
-    text-decoration: none;
-    color:black;
+.git-icon {
+  color: black;
+  font-size: 25px;
+  margin-right: 5px;
 }
-.gihub-footer{
-    color:black
+.git {
+  text-decoration: none;
+  color: black;
 }
-.git:hover{
-    color: rgba(0, 0, 139, 0.774);
+.gihub-footer {
+  color: black;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.git-icon:hover{
-    color:rgb(39, 34, 34);
-   
+.git-icon:hover {
+  color: rgb(39, 34, 34);
 }
-.footer-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.footer-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-text {
+  font-weight: bold;
+}
+.footer-left-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -15px;
 }
 @media only screen and (max-width: 600px) {
-    .footer{
-        margin-top: 30px;
-        padding-bottom: 0px;
-        height: 200px;
-    }
+  .footer {
+    margin-top: 30px;
+    padding-bottom: 0px;
+    height: 200px;
+  }
 
-    .footer-body{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-right{
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .mail,.linkedin{
-        font-size: 23px;
-    }
-    .linkedin:hover{
-        color: #0077B5;
-    }
-    .mail:hover{
-        color:rgb(231, 52, 52);
-    }
-    .github-footer{
-        text-align: center;
-    }
+  .footer-body {
+    flex-direction: column;
+  }
+  .footer-right {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .mail,
+  .linkedin {
+    font-size: 23px;
+  }
+  .linkedin:hover {
+    color: #0077b5;
+  }
+  .mail:hover {
+    color: rgb(231, 52, 52);
+  }
+  .github-footer {
+    text-align: center;
+  }
 }

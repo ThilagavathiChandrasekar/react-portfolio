@@ -25,7 +25,7 @@ function Footer() {
                 </div>
 
                 <div className='footer-left'>
-                <p style={{ textAlign: 'center' }}>More project i've worked on</p>
+                <p style={{ textAlign: 'center' }} className='footer-left-text' >More project i've worked on</p>
                 <p className='github-footer'><a href="https://github.com/ThilagavathiChandrasekar"><FaGithub className='git-icon'/><span className='git'>@Thilagavathi Chandrasekar</span> on github</a></p>
                 </div>
               </div>

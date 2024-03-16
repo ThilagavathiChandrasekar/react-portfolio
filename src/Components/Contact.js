@@ -21,7 +21,7 @@ function Contact() {
         <h4 className='contact-head'><FcContacts />Contact</h4>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 col-md-12 col-sm-12' data-aos="zoom-in-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="500" >
+                <div className='col-lg-6 col-md-12 col-sm-12' data-aos="zoom-in-right" >
                     <img src={Contactimg} className='contact-img' />
                 </div>
 

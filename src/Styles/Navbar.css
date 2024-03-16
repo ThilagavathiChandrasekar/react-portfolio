@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Hind:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Sora:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-body { height: 100%; }
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=Hind:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Sora:wght@100..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  height: 100%;
+}
 body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 254, 234, 1) 0%,
+    rgba(255, 254, 234, 1) 35%,
+    #b7e8eb 100%
+  );
 }
-nav{
+nav {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -29,13 +36,13 @@ nav{
 .navbar-nav .nav-link:visited {
   color: white;
 }
-.toggle-background{
-  background-color: #262C4D;
+.toggle-background {
+  background-color: #262c4d;
   color: white;
 }
 
 @media only screen and (max-width: 600px) {
-  *{
+  * {
     overflow-x: hidden;
   }
   .nav-text {
@@ -47,8 +54,8 @@ nav{
     color: black;
     margin-bottom: 70px;
   }
-  .navbar-brand{
-    padding-left:5px;
+  .navbar-brand {
+    padding-left: 5px;
     font-size: 17px;
   }
   .nav-item {
@@ -59,15 +66,15 @@ nav{
   .nav-text {
     font-size: 1.3rem;
     margin: 8px;
-    color: black;
+    color: white;
   }
   .navbar-toggler-icon {
     background-image: url(../Assets/toggler-image.png);
-    margin-right: 20px;
-    background-color:#262C4D;
+    /* margin-right: 20px; */
+    background-color: #262c4d;
     color: white;
   }
-  
+
   .navbar {
     width: 100%;
   }

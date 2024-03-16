@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
         <section id="navbar">
           <nav 
-          style={{ backgroundColor: "#262C4D" }}
+          style={{ backgroundColor: "#262C4D" , color:"white"}}
           className="navbar navbar-expand-lg fixed-top">
             <a className="navbar-brand" style={{ color: "whitesmoke" }}>
               <b>Thilagavathi Chandrasekar</b>
